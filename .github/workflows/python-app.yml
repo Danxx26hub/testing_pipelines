@@ -22,3 +22,6 @@ jobs:
     - name: Test with pytest
       run: |
         make test
+      run: |
+        sudo apt-get update
+        sudo apt-get curl
