@@ -12,6 +12,6 @@ lint:
 
 
 pull:
-	curl -H ${X_API_Key} https://my.api.mockaroo.com/d_load.json >> test.txt
+	curl -H ${X_API_Key} https://my.api.mockaroo.com/d_load.json >> test.log
 
 all: install lint test pull
